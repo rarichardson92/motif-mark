@@ -1,5 +1,7 @@
 # motif-mark
 
+Code located in drawing.py
+
 Reads in an **RNA/DNA FASTA file or UCSC coordinates** along with desired RNA/DNA motifs and outputs one of the following: visually projects where motifs are in the sequence, provides a tabular list of indexes for motif and exon locations in the sequence on the command line, tsv with output similar to commandline printout. 
 
 **First base index position = 1**, reverse positions based on reverse compliment with the same orientation as the initial sequence (From the left of the reverse compliment). 
