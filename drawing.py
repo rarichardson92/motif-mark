@@ -202,6 +202,9 @@ def draw(features, width, height, margin, fontsize):
 
     #Print text on image for header, sequence length, and notes about the displayed image
     context = cairo.Context(surface)    #generate surface
+    context.set_source_rgb(1.0, 1.0, 1.0)
+    context.rectangle(0, height/2, width, height/2) #x initial, y inital (upper), width of box, height of box
+    context.fill() ## fill rectangle
     context.set_source_rgb(0.0, 0.0, 0.0)
     context.move_to(margin, fontsize+margin)
     context.set_font_size(fontsize)

@@ -158,6 +158,7 @@
 </g>
 </defs>
 <g id="surface11">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 0 250 L 1000 250 L 1000 500 L 0 500 Z M 0 250 "/>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
   <use xlink:href="#glyph0-1" x="20" y="33"/>
   <use xlink:href="#glyph0-2" x="28.251953" y="33"/>
