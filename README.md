@@ -14,3 +14,5 @@ Imports argparse, re, and cairo, please **install packages appropriately before 
 
 
 For **custom colors and image parameters**, please output as a tsv and access the jupyter notebook.
+
+.svg and .tsv files are example outputs using motifs in Fig_1_motifs.txt and Figure_1.fasta.
